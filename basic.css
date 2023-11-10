@@ -1,0 +1,110 @@
+.logo{
+    width : 100px;
+
+}
+
+.header{
+    border : solid black 1px;
+    display : flex;
+    justify-content: space-between;
+    background-color:#f0f0f0;
+    
+}
+.nav-items{
+    padding-right: 30px;
+}
+.nav-items>ul{
+    font-size: 20px;
+    display : flex;
+    list-style-type: none;
+    
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+ 
+}
+
+.sear{
+    margin-top : 20px;
+}
+.butter{
+    margin-left : 20px;
+}
+
+.butter:hover{
+    cursor: pointer;
+}
+
+.res_card{
+    margin: 15px;
+    
+    width: 200px;
+
+  
+    background-color: #f0f0f0;
+}
+.res_card:hover{
+    border: solid black 3px;
+    cursor: pointer;
+}
+
+.res_img{
+    width: 190px;
+    height: 130px;
+    padding: 4px;
+    padding-bottom: unset;
+
+  
+    
+   
+}
+
+.restaurant{
+    display: flex;
+    flex-wrap: wrap;
+}
+#root{
+    background-image: url('https://weblium.com/blog/wp-content/uploads/2019/02/pexels-photo-941861-1344x734.jpeg');
+    
+}
+
+.search_bar{
+    margin-left: 10px;
+}
+
+.footer{
+
+    border: solid black 1px;
+    background-color:#f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.foo{
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.shim_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer_card{
+    margin: 15px;
+    
+    width: 200px;
+    height: 300px;
+
+  
+    background-color: #f0f0f0;
+}
+.login{
+    font-size: 15px; 
+    padding: 0px 15px;
+    cursor: pointer;
+}
